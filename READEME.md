@@ -4,7 +4,8 @@ Simple FastAPI microservice that fetches EUR→USD exchange rates from Franklins
 and computes percentage changes between start and end dates.
 
 ## 🚀 Endpoints
-
+http://localhost:8000/docs#/default/summary_summary_get
+http://localhost:8000/health
 ### **GET /health**
 Returns `{ "status": "ok" }`
 
